@@ -11,7 +11,7 @@ while True:
      client.connect(broker,port)
      print('Broker connected')
      client.publish('sacet/a11','hii')
-     time.sleep(4)
+     time.sleep(15)
 
     except:
      print('Broker Connection Failure')
